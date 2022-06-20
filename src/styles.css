@@ -18,8 +18,7 @@ ul {
 
 .display-scores-title,
 .add-scores-title {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', sans-serif;
   font-size: medium;
   font-weight: 500;
 }
