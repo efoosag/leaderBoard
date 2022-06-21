@@ -1,0 +1,69 @@
+body {
+  background-color: antiquewhite;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.title {
+  margin-top: 40px;
+  padding-left: 24px;
+}
+
+.content {
+  display: flex;
+}
+
+.display-scores-title,
+.add-scores-title {
+  font-family: 'Lucida Sans', sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.display-scores {
+  width: 40%;
+  margin: 0 50px;
+}
+
+.scores-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.scores-list {
+  border: 2px solid black;
+}
+
+.scores-list-item {
+  padding: 4px;
+}
+
+li:nth-child(odd) {
+  background-color: #fff;
+}
+
+.add-scores-title {
+  margin-bottom: 24px;
+}
+
+.add-scores-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 70%;
+}
+
+input {
+  margin-bottom: 12px;
+  padding-right: 0;
+  height: 20px;
+  width: 100%;
+  border: 2px solid #000;
+}
+
+button {
+  background-color: #fff;
+}
