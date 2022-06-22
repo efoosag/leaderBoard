@@ -11,6 +11,7 @@
 - Descriptive and Understanding Commit Messages and ReadMe file
 - Pull Request in Github for code review
 - Design Structure for Leaderboard
+- Add Send and Receive Data functionality from API
 
 ## Built With
 
