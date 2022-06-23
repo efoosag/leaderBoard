@@ -12,6 +12,7 @@
 - Pull Request in Github for code review
 - Design Structure for Leaderboard
 - Add Send and Receive Data functionality from API
+- Add Stylings to Leaderboard
 
 ## Built With
 
