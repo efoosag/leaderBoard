@@ -34,7 +34,7 @@
 **Using Postman API client,**
 
 - Use Post Action to creat a new games using the URL and endpoint from API documentation
-- The Post Action an ID for the new games
+- The Post Action returns an ID for the new games
 
 With the URL and ID, use
 
