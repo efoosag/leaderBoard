@@ -11,6 +11,7 @@
 - Descriptive and Understanding Commit Messages and ReadMe file
 - Pull Request in Github for code review
 - Design Structure for Leaderboard
+- Create a new game using URL provided on Leaderboard documentation in Postman and got an ID for the new game
 - Add Send and Receive Data functionality from API
 - Add Stylings to Leaderboard
 
