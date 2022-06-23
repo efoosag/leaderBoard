@@ -31,7 +31,20 @@
 **This Project has to do with creating a repo and preparing the repo against errors like syntax errors.**
 **The project also has to do with practicing professional way of documentation in software development.**
 
+**Using Postman API client,**
+
+- Use Post Action to creat a new games using the URL and endpoint from API documentation
+- The Post Action an ID for the new games
+
+With the URL and ID, use
+
+- fetch method to get data
+- POST to add new name and score
+
 To get a local copy up and running follow these simple example steps.
+
+- create a new repo on github
+- clone the repo to the local Machine
 
 ### Prerequisites
 
