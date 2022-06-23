@@ -35,7 +35,7 @@ const retrieveData = async () => {
   data.result.forEach((item) => {
     const li = document.createElement('li');
     li.classList.add('scores-list-item');
-    li.innerText = `${item.user}: ${item.score}`;
+    li.innerHTML = `<div class="details"><div class="name">${item.user}</div><div class="score">${item.score}</div></div>`;
     displayDiv.appendChild(li);
   });
 };

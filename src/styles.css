@@ -10,22 +10,32 @@ ul {
 .title {
   margin-top: 40px;
   padding-left: 24px;
+  font-size: larger;
 }
 
 .content {
   display: flex;
+  flex-direction: column-reverse;
 }
 
 .display-scores-title,
 .add-scores-title {
   font-family: 'Lucida Sans', sans-serif;
-  font-size: medium;
+  font-size: larger;
   font-weight: 500;
+}
+
+.add-scores-title {
+  margin-left: 25px;
 }
 
 .display-scores {
   width: 40%;
   margin: 0 50px;
+}
+
+.add-scores {
+  margin: 0 50px 25px 25px;
 }
 
 .scores-title {
@@ -49,13 +59,6 @@ li:nth-child(odd) {
   margin-bottom: 24px;
 }
 
-.add-scores-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  width: 70%;
-}
-
 input {
   margin-bottom: 12px;
   padding-right: 0;
@@ -66,4 +69,41 @@ input {
 
 button {
   background-color: #fff;
+  color: navy;
+}
+
+button:hover {
+  background-color: navy;
+  color: #fff;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name,
+.score {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-weight: 700;
+}
+
+.name {
+  padding-left: 20%;
+}
+
+.score {
+  padding-right: 20%;
+}
+
+@media screen and (min-width: 600px) {
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .add-scores {
+    margin: 0 25px;
+  }
 }
