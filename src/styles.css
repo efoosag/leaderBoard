@@ -27,6 +27,7 @@ ul {
 
 .add-scores-title {
   margin-left: 25px;
+  margin-bottom: 24px;
 }
 
 .display-scores {
@@ -53,10 +54,6 @@ ul {
 
 li:nth-child(odd) {
   background-color: #fff;
-}
-
-.add-scores-title {
-  margin-bottom: 24px;
 }
 
 input {
